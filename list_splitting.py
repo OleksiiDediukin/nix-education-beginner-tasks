@@ -1,6 +1,6 @@
 def splitting_of_list(arr, num):
     if not isinstance(num, int):
-        raise TypeError(f"Type of variable num must be {type(int)}")
+        raise TypeError(f"Type of variable num must be {int}")
     if len(arr) < num:
         raise Exception("Array length must be greater or equal to the number of splits")
     
